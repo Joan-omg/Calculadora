@@ -1,20 +1,6 @@
-def dividir(a, b):
-    if b == 0:
-        return "Error: división entre cero"
-    return a / b
+print("Buenvenido a la calculadora")
 
-def restar(a, b):
-    return a - b
-
-def suma(a, b):
-    return a + b
-
-def multiplicar(a, b):
-    return a * b
-
-print("Bienvenido a la calculadora")
-
-while True:
+while true:
     print("Seleccione la operación:")
     print("1. Sumar")
     print("2. Restar")
